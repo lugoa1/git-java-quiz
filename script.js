@@ -1,28 +1,3 @@
-//  function hideContent(){
-
-//  let cycleContent = document.getElementById("button1")
-
-//  cycleContent.on('click', function () {
-//      document.getElementBy("center-content1").style.display = "hidden"
-//    })};
-
-// let firstChange = $("center-content1")
-// let firstChange2 = $("center-content2")
-
-
-
-// function hide(){
-//     document.getElementById("center-content1").style.display = "hidden"
-//    };
-
-// function myFunction() {
-//     var x = document.getElementById("center-content1");
-//     if (x.style.display === "visible") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "hidden";
-//     }
-//   }
 
 
 
@@ -95,18 +70,21 @@ let wrongAns3 = document.getElementById("answer6")
   secondsLeft -= 4
   timer.textContent = secondsLeft + " " + "wrong answer!"
   document.getElementById("answer1").disabled = true;
- 
+  document.getElementById("answer2").disabled = true;
+   
 
 },{once : true})
 wrongAns2.addEventListener("click", function () {
   secondsLeft -= 4
   timer.textContent = secondsLeft + " " + "wrong answer!"
   document.getElementById("answer4").disabled = true;
+  document.getElementById("answer3").disabled = true;
 })
 wrongAns3.addEventListener("click", function () {
   secondsLeft -= 4
   timer.textContent = secondsLeft + " " + "wrong answer!"
   document.getElementById("answer6").disabled = true;
+  document.getElementById("answer5").disabled = true;
 })}
 
 
