@@ -1,0 +1,56 @@
+.font-family1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.center-content1{
+    display:flex;
+    justify-content:center;
+    
+    
+}
+
+.center-content2{
+    display:flex;
+    justify-content:center;
+}
+
+#button1{ 
+    margin:10px 300px;
+    
+}
+
+   
+   
+#answer1{
+    display: block;
+}
+
+
+#questions{
+    display:flex;
+}
+
+
+.button-container2{
+ margin: 60px 0px;
+ position:absolute;
+}
+
+#answer3{
+    margin: 83px 0px;
+}
+
+#score{
+   position:absolute;
+   margin: -110px 0px;
+   border-style:double;
+   border-radius: 30px;
+   font-family:monospace ;
+}
+
+#complete {
+    margin: 100px 0px;
+}

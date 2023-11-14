@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+        <div class="center-content1">
+            <h1>Coding Quiz Challenge </h1>
+        </div>
+        <div class="center-content2">
+            <ul>
+ 
+        <h4><span id="counter"></span> Highscore</h2>
+        <p> try to answer all of these coding questions in time but remember, wrong answers will penalize your time!
+        </p>
+       
+        <button type="button" onclick="displayText(); setTime()" id="button1">Click Me!</button>
+        <h1 class="time" style="text-align:center;"></h1>
+        <p id="score"></p>
+        <div id="main"></div>
+        <div id="questions" style="display: none;">
+            question 1, what is javascript
+
+            <div class="button-container">
+                <button type="submit" onclick="scores()" id="answer1">an object-oriented computer programming language</button>
+                <button type="submit" onclick="wrongAns()" id=answer2> a standardized system for tagging text files </button>
+            </div>
+            <div class="button-container2"> how do you add an event in javascript </div>
+            <button type="submit" onclick="wrongAns()" id="answer3">eventListner.add</button>
+            <button type="submit" onclick="scores()" id=answer4> .addEventListner</button>
+
+            <div class="button-container3"> what are the two subtypes of data in javascript </div>
+            <button type="submit" onclick="scores()" id="answer5">primitive and non primitive</button>
+            <button type="submit" onclick="wrongAns()" id=answer6> strings and booleans</button>
+
+           <div id = "complete">
+            <button type = "submit" id = "submit-button">Finish</button>
+           </div>
+        </div>
+        </ul>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./script.js"> </script>
+</body>
+
+</html>
